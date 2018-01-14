@@ -1,3 +1,30 @@
+MODIFIED BY JEREMY TO MAKE EASIER TO RUN
+
+I used virtual env wrapper: https://virtualenvwrapper.readthedocs.io/en/latest/
+
+If no virtual env exists, create one with:
+
+    $ mkvirtualenv mnemonic
+
+If it does, then run it with
+
+    $ workon mnemonic
+    $ python setup.py develop
+
+Close the virtualenv session to return to system python
+
+    $ deactivate
+
+To run type
+
+    $ python mnemonic.py [16 digit hex string]
+
+such as
+
+    $ python mnemonic.py f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2
+
+===========
+
 python-mnemonic
 ===============
 

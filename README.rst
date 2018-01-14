@@ -9,11 +9,10 @@ If no virtual env exists, create one with:
 If it does, then run it with
 
     $ workon mnemonic
-    $ python setup.py develop
 
-Close the virtualenv session to return to system python
+Install requirements via
 
-    $ deactivate
+    $ pip install -r requirements.txt
 
 To run type
 
@@ -22,6 +21,11 @@ To run type
 such as
 
     $ python mnemonic.py f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2
+
+Close the virtualenv session to return to system python
+
+    $ deactivate
+
 
 ===========
 

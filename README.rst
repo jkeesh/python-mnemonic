@@ -1,4 +1,10 @@
-MODIFIED BY JEREMY TO MAKE EASIER TO RUN
+Modified python-mnemonic by Jeremy
+==================================
+
+I just made small modifications to make it easier and clearer how to set up and run.
+
+Setup Instructions
+------------------
 
 I used virtual env wrapper: https://virtualenvwrapper.readthedocs.io/en/latest/
 
@@ -13,6 +19,9 @@ If it does, then run it with
 Install requirements via
 
     $ pip install -r requirements.txt
+
+Running Instructions
+------------------
 
 To run type
 
